@@ -1,1 +1,9 @@
-# Smart-Claims-Processing-Platform_HiDevs
+# Smart Claims Processing Platform
+
+This project is automatically generated.
+
+## Installation
+
+```sh
+pip install -r requirements.txt
+```
