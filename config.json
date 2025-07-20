@@ -1,0 +1,25 @@
+{
+    "confidence_threshold": 0.75,
+    "policy_db": {
+        "PN-AUTO-12345": {"coverage": ["collision", "theft"], "exclusions": ["racing", "wear and tear"], "deductible": 500},
+        "PN-PROP-67890": {"coverage": ["fire", "water damage"], "exclusions": ["flood", "neglect"], "deductible": 1000},
+        "PN-HLTH-11223": {"coverage": ["dental", "emergency"], "exclusions": ["cosmetic surgery"], "deductible": 250}
+    },
+    "training_data": {
+        "description": [
+            "Car accident on the highway, front bumper damaged.",
+            "Rear-ended at a stoplight.",
+            "Water damage in the basement due to a burst pipe.",
+            "Storm broke the window in the living room.",
+            "Claim for a routine dental check-up and cleaning.",
+            "Emergency room visit for a broken arm.",
+            "Major collision involving two vehicles, requires towing.",
+            "House fire damage in the kitchen affecting appliances."
+        ],
+        "claim_type": ["auto", "auto", "property", "property", "health", "health", "auto", "property"]
+    },
+    "routing_rules": {
+        "high_value_threshold": 20000,
+        "stp_threshold": 2000
+    }
+}

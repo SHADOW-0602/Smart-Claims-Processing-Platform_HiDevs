@@ -1,1 +1,8 @@
-# Add your project dependencies here
+streamlit 
+Pillow
+pytesseract
+spacy
+scikit-learn
+pandas
+numpy
+python-magic
